@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ClaimKit privacy policy</title>
+<meta name="description" content="How ClaimKit handles your data.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero"><h1>Claim<span>Kit</span></h1><p>Privacy policy</p></header>
+<nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+<main>
+
+<p class="muted">Last updated: 3 November 2026</p>
+<p>ClaimKit is designed to keep your receipts on your phone. This page says exactly what is and is not shared.</p>
+<h2>What stays on your iPhone</h2>
+<ul>
+<li>Your receipt photos and PDFs, the details you or the app fill in (shop, date, amounts, VAT, category, trip, notes) and your settings.</li>
+<li>Text recognition (reading the receipt) happens on your phone using Apple&rsquo;s built-in Vision framework.</li>
+<li>There is no ClaimKit account, and ClaimKit has no advertising, tracking or analytics.</li>
+<li>Backups and expense packs are files you create and choose where to send (for example Files or iCloud Drive). We never receive them.</li>
+</ul>
+<h2>Optional AI reading</h2>
+<p>If the phone cannot read a receipt confidently, ClaimKit can use an online AI reader, but only after you say <strong>Allow</strong> on a screen that explains this. You can change your mind at any time in Settings. If you decline, nothing is ever sent and the app works fully.</p>
+<h3>What is sent</h3>
+<ul>
+<li>A reduced-size copy of the receipt image (or the PDF) that is being read. This can contain personal information that is printed on a receipt, such as card digits, a name or an address. It is sent only for that receipt, only when AI reading is allowed.</li>
+<li>A random device number made by the app (not linked to your name, Apple ID, phone number or contacts) and a signature that shows the request comes from the real app.</li>
+</ul>
+<h3>Who receives it</h3>
+<ul>
+<li><strong>ClaimKit&rsquo;s server</strong> (hosted on Supabase) receives the request and passes the receipt to Anthropic. It does not keep the receipt image or the text that was read, and does not write them to logs.</li>
+<li><strong>Anthropic</strong> (the company behind the Claude AI model) reads the receipt on our behalf and returns the details to the app. Anthropic processes it under its commercial API terms. Under those terms, content sent through the API is not used to train its models, and it may be kept for a limited time as described in Anthropic&rsquo;s own policies: <a href="https://www.anthropic.com/legal/privacy">anthropic.com/legal/privacy</a>.</li>
+</ul>
+<h3>What the server keeps</h3>
+<ul>
+<li>The random device number, how many AI readings it has used (for the free trial and monthly allowance), when it was first and last seen, and the cryptographic key used to prove the request is from the real app.</li>
+<li>The internet (IP) address of requests, to limit abuse: an address is held in short-lived counters and with the device record the first time it appears.</li>
+</ul>
+<p>We use this only to run the service fairly and to prevent abuse. We do not sell it or use it for advertising.</p>
+<h2>Purchases</h2>
+<p>Subscriptions are processed by Apple. We do not see your payment details or your Apple ID. We receive from Apple only whether a subscription is active.</p>
+<h2>Your choices and rights</h2>
+<ul>
+<li>Turn AI reading off at any time: Settings &rsaquo; AI reading.</li>
+<li>Delete any receipt in the app, or delete the app to remove everything stored on your phone.</li>
+<li>If you are in the UK or EU you have the right to ask what we hold about you, to have it deleted, and to complain to your data protection authority (in the UK, the Information Commissioner&rsquo;s Office). Email <a href="mailto:support.claimkit@icloud.com">support.claimkit@icloud.com</a>.</li>
+</ul>
+<h2>Children</h2>
+<p>ClaimKit is for adults managing work expenses and is not directed at children.</p>
+<h2>Changes</h2>
+<p>If what is sent, or to whom, ever changes, the app will ask for your permission again before sending anything. We will update this page and its date.</p>
+<h2>Contact</h2>
+<p><a href="mailto:support.claimkit@icloud.com">support.claimkit@icloud.com</a></p>
+</main>
+<footer>ClaimKit &middot; <a href="mailto:support.claimkit@icloud.com">support.claimkit@icloud.com</a></footer>
+</body>
+</html>
