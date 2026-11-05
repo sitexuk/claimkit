@@ -51,7 +51,7 @@ footer { text-align:center; color:var(--muted); font-size:.9rem; padding:24px 16
 .hero2-shot img { display:block; width:100%; height:auto; border-radius:34px 34px 0 0; border:8px solid rgba(124,196,240,.28); border-bottom:0; box-shadow:0 -6px 40px rgba(0,0,0,.35); }
 @media (min-width:860px) {
   .hero2 { flex-direction:row; justify-content:center; align-items:flex-end; gap:64px; padding:44px 40px 0; }
-  .hero2-text { text-align:left; padding-bottom:56px; }
+  .hero2-text { text-align:left; align-self:center; padding-bottom:40px; max-width:41rem; }
   .lead { margin-left:0; }
   .cta { justify-content:flex-start; }
   .hero2-shot { width:300px; flex:none; }
