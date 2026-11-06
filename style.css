@@ -47,7 +47,7 @@ footer { text-align:center; color:var(--muted); font-size:.9rem; padding:24px 16
 .btn-ghost { border:1.5px solid rgba(124,196,240,.55); color:#fff; }
 .btn-ghost:hover { background:rgba(124,196,240,.14); }
 .fine { margin:14px 0 0; color:#a9c4da; font-size:.9rem; }
-.hero2-shot { width:min(280px,70vw); margin-top:8px; }
+.hero2-shot { width:min(280px,70vw); margin-top:8px; margin-bottom:-70px; transform:rotate(-6deg); }
 .hero2-shot img { display:block; width:100%; height:auto; border-radius:34px 34px 0 0; border:8px solid rgba(124,196,240,.28); border-bottom:0; box-shadow:0 -6px 40px rgba(0,0,0,.35); }
 @media (min-width:860px) {
   .hero2 { flex-direction:row; justify-content:center; align-items:flex-end; gap:64px; padding:44px 40px 0; }
